@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">  
+ <style>
+.nav{
+height:50px;
+background-color:black;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: bold;
+padding:15px 15px;
+  text-transform: uppercase;
+color:white;
+}
+
+.nav li {
+  display: inline;
+}
+
+
+.footer
+{
+background-color:black;
+letter-spacing:3px;
+color:white;
+font-size:20px;
+text-align:center;
+font-weight:bold;
+border-top:2px solid blue;
+padding:10px;
+height:50px;
+}
+
+
+.more{
+color:white;
+text-align:center;
+margin-left:500px;
+width:150px;
+background-color:black;
+}
+#myself .container{
+background-color:#E6F0FF;
+box-shadow: 500px 500px 500px green ;
+}
+#myself .container ul{
+list-style-type:none;
+}
+#myself .slide{
+display:none;
+}
+.love{
+color:#85C2FF;
+font-weight:bold;
+font-size:30px;
+letter-spacing:4px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin:auto;
+  }
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+  .affix + .container-fluid{
+      padding-top: 70px;
+  }
+
+
+a:hover{
+color:red;
+}
+.title{
+height:400px;
+background-color:#EE5151;
+text-align:center;
+padding:90px;
+}
+.name{
+font-size:60px;
+color:white;
+font-weight:bold;
+}
+.job{
+letter-spacing:5px;
+color:#887676;
+font-size:25px;
+}
+ 
+</style>
+<script>
+$(document).ready(function(){
+    /* affix the navbar after scroll below header */
+    $(".nav").affix({offset: {top: $(".nav").outerHeight(true)} });
+  $(".more").click(function(){
+    $(".slide").slideToggle("slow");
+});
+});
+</script>
+  </head>
+  <body>
+ <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="Jyotif.html">Home</a></li>
+          <li><a href="#myself">About ME</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" style="background-color:black;border:0px"type="button" data-toggle="dropdown">Contact
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+              <li><a href="mailto:jyotisharma13292@gmail.com">Jyotisharma13292@gmail.com</a></li>
+<li><a href="https://be.linkedin.com/pub/jyoti-kaushik/b8/ab8/632">Linked<i class="fa fa-linkedin-square fa-lg"></i></a></li>
+               <li class="disabled"><a href="#">00-32465661517</a></li>
+              </ul>
+           </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+<div class="title">
+<p class="name"><img src="C:\Users\Jyoti\Desktop\jyoti.jpg" style="height:80px"></img>About ME<p>
+<p class=job>NO EXPIERENCE<p>
+</div>
+<div id="myself" style="background-color:white">
+<div class="container">
+<h1 style="color:#85C2FF;font-weight:bold;font-family:Impact">Here,</h1>
+<p style="color:orange;font-size:25px">I am <strong><em>Jyoti Kaushik</em></strong>, graduated <abbr title="Master Of Computer Application">MCA</abbr> Student.I am passionated about Web Applications.</p>
+<p class="love"><em>Love to do Layout , Design and javascript</em></p>
+<p style="color:black;font-size:25px;font-family:Georgia">I have done internship in <em>European Dynamics(<strong>Brussels,Belgium</strong>)</em> for 3 months.Now, I am looking for a job to start my carrer in IT.</p>
+<div class="more">Click to know in details</div>
+<div class="slide">
+<p><strong><h3 style="color:#85C2FF;font-size:30px; ">Computer Proficiency:</h3></strong>
+<ul style="color: orange;font-size:18px; " class="proficiency">
+<li >Known Languages: Java(Good), C++(Basic), SQL(Basic), JSP(Basic), HTML5(Basic), 
+Javascript(Basic), CSS3(Basic),Jquery(Basic),Bootstrap(Basic),AngularJs(Baisc)</li>
+	<li>Databases: MySQL, Oracle(Basic)</li>
+	<li>Servers: Tomcat</li>
+	<li>IDE: Eclipse</li>
+	<li>Interest Areas: Web applications</li>
+
+</ul>
+</p>
+<h2 style="color:#85C2FF;font-size:25px " >Qualifications:</h2>
+<p style="color:black;font-size:20px"><strong>Professional:</strong>
+<ul style="color: orange;font-size:18px ">
+<li>MCA(Master of Computer Application) from <a href="http://www.mdurohtak.ac.in/">Maharishi Dayanand University</a>, India 
+(2012-2015). Obtained a score of 79% </li>
+<li>BCA (Bachelor of Computer Application) with Honors from <a href="http://www.mdurohtak.ac.in/">Maharishi Dayanand University</a>, India(2009-2012). 
+<Obtained a score of 80% Aggregate.</li>
+</ul>
+<p style="color:black;font-size:20px"><strong>Academic:</strong></p>
+<ul style="color: orange;font-size:18px ">
+<li>Higher secondary from CBSE in 2009 with 70.6% marks.</li>(<a href="http://www.stmichaelsschoolggn.com/">St. Michael School</a>)
+<li>Matriculation from HBSE in 2007 with 9.4 GPA.</li>
+</ul>
+</p>
+</div>
+</div>
+</div>
+<div class="motivation" style="height:350px">
+<div style="height:100px;width:100px;box-shadow:10px 10px 10px red;transform:rotate(-30deg);padding:20px;color:red;fonst-size:12px;font-weight: bold">Learning</div>
+<div class="container" style="font-size:20px;color:green;box-shadow:40px 40px 20px green">
+<h1 style="color:orange">Motivation</h1>
+In July, I have completed my masters in computer application and looking for an opportunity to start my professional career in web application development or in related area.
+<br><br>As I lack the experience of the IT industry, you can expect that I am not knowledgeable in many areas but I assure you that I am aware of this shortcoming.  I plan to compensate for lack of experience with dedication and creative mindset. I just require an opportunity and a start.
+</div>
+</div>
+<div class="footer">
+By Jyoti Kaushik
+</div>
+ </body>
+</html>
+</html>
